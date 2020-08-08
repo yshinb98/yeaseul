@@ -50,19 +50,21 @@ UI = {
             arrows: true,
             draggable: false,
             asNavFor: ".product_info .slider_nav",
+            fade:true,
         });
         $(".product_info .slider_nav").slick({
             slidesToShow: 10,
             slidesToScroll: 1,
             arrows: false,
             focusOnSelect: true,
+            draggable:false,
             asNavFor: ".product_info .slider",
-            infinite: true,
+ 
             responsive: [
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 6,
+                        slidesToShow: 10,
                     },
                 },
                 {
